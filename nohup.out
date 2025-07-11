@@ -1,0 +1,14 @@
+Watching for file changes with StatReloader
+System check identified some issues:
+
+WARNINGS:
+todos.Todo: (models.W042) Auto-created primary key used when not defining a primary key type, by default 'django.db.models.AutoField'.
+	HINT: Configure the DEFAULT_AUTO_FIELD setting or the TodosConfig.default_auto_field attribute to point to a subclass of AutoField, e.g. 'django.db.models.BigAutoField'.
+
+System check identified 1 issue (0 silenced).
+[11/Jul/2025 19:04:46] "GET /todos/ HTTP/1.1" 200 4132
+[11/Jul/2025 19:04:48] "GET /todos/ HTTP/1.1" 200 4132
+Not Found: /favicon.ico
+[11/Jul/2025 19:04:49] "GET /favicon.ico HTTP/1.1" 404 2843
+[11/Jul/2025 19:05:00] "GET /todos/ HTTP/1.1" 200 4132
+[11/Jul/2025 19:05:02] "GET /todos/ HTTP/1.1" 200 4132
